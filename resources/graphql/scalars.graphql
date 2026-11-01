@@ -1,0 +1,11 @@
+"A calendar date parsed and formatted using the package date format."
+scalar Date @scalar(class: "Noldors\\LighthouseExtensions\\Scalars\\Date")
+
+"A date and time normalized to UTC with configurable serialization."
+scalar DateTime @scalar(class: "Noldors\\LighthouseExtensions\\Scalars\\DateTime")
+
+"A positive PHP-range integer identifier serialized as a string."
+scalar SerialID @scalar(class: "Noldors\\LighthouseExtensions\\Scalars\\SerialID")
+
+"A canonical hyphenated UUID, normalized to lowercase."
+scalar UUID @scalar(class: "Noldors\\LighthouseExtensions\\Scalars\\UUID")
